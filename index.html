@@ -47,10 +47,10 @@
             <h2>Majorca</h2>
             <section id="intro">
 
-                <p>Introduction</p>
-                <q>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, 
+                <h3>Introduction</h3>
+                <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, 
 				picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, 
-				while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</q>
+				while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
                 <!--Responsive Image for Art Direction
                     images/majorca-beach-square-s.jpg
@@ -317,26 +317,29 @@
             <form action="#" method="post">
                 <div>
                     <label for="fname">First Name<span>*</span></label>
-                    <input id="fname" name="fname" required>
-				              				
+                    <input type="text" id="fname" name="fname" required>
+				           				
                 </div>
                 <div>
                     <label for="lname">Last Name<span>*</span></label>
-                    <input id="lname" name="lname" required>
+                    <input type="text" id="lname" name="lname" required>
                 </div>
                 <div>
                     <label for="email">Email<span>*</span></label>
-                    <input id="email" type="email" required>
+                    <input id="email" type="email" name="email" required>
                 </div>
                 <div>
                     <label for="phone">Phone<span>*</span></label>
-                    <input id="phone" type="tel" required>
+                    <input id="phone" type="tel" name="phone" required>
+					
+
                 </div>
                 <fieldset id="preferred-contact">
                 <legend>Preferred Contact Method<span>*</span></legend>
                     <div>
-          <input type="radio" id="contact-email" name="preferred-contact" value="email" required>
+          <input type="radio" id="contact-email" name="preferred-contact" value="email">
           <label for="contact-email">Email</label>
+		  		  		  
         </div>
 
         <div>
